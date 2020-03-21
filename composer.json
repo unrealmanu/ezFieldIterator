@@ -1,0 +1,31 @@
+{
+    "version":  "0.0.1",
+    "name": "unrealmanu/ez-content-field-filter",
+    "description": "Filter field of ez Content",
+    "keywords": [
+        "content",
+        "filter",
+        "field",
+        "iterator",
+        "ez"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Manuel Trebbi",
+            "email": "unrealmanumaster@gmail.com",
+            "homepage": "https://manueltrebbi.netlify.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ezsystems/ezplatform-ee": "^2.5"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "unrealmanu\\ezFieldIterator\\": "src/"
+        }
+    }
+}
