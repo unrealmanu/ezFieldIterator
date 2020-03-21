@@ -28,6 +28,11 @@ use eZ\Publish\Core\FieldType\TextLine\Value as TextLineValue;
 $fieldHelper->setClass(ImageValue::class);
 ```
 
+- Field name from get value (Required)
+```
+$fieldHelper->setValueField('uri');
+```
+
 ### Example
 ```
 use unrealmanu\ezFieldIterator\Filters as FieldHelper;
