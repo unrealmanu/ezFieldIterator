@@ -5,10 +5,11 @@ namespace unrealmanu\ezFieldIterator;
 
 use eZ\Publish\API\Repository\Values\Content\Content;
 use eZ\Publish\API\Repository\Values\Content\Field;
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 use Generator;
 
-class Filters
+class Filters extends Bundle
 {
     /**
      * @var string
